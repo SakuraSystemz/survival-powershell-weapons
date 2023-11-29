@@ -28,8 +28,8 @@ Write-Host "##                                                            "
 Write-Host "##                                                            "
 Write-Host " ##                                                           "
 Write-Host "     { 01110000111001101110011011000110110000101101110 }      "
-  Write-Host "usage: psscan.ps1 <host|hosts> <port|ports> [-UDP] [-Help]"
-  Write-Host " e.g.: psscan.ps1 192.168.1.2 445 -UDP"
+  Write-Host "usage: scan-port.ps1 <host|hosts> <port|ports> [-UDP] [-Help]"
+  Write-Host " e.g.: scan-port.ps1 192.168.1.2 445 -UDP"
   return
 }
 
